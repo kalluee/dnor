@@ -1,6 +1,5 @@
 package com.example.dnor.service;
 
-import com.example.dnor.domain.NameDto;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
@@ -47,5 +46,4 @@ public class NameController {
         List<NameResponce> responses = nameService.findAllByParamSortedDesc(request);
         return responses;
     }
-
 }
