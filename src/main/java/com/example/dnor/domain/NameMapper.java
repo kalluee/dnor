@@ -11,7 +11,5 @@ public interface NameMapper {
 
     NameDto nameToNameDto(Name name);
 
-//    List<NameResponce> namesToNameDtos(List<NameDto> nameDto);
-
     List<NameResponce> namesToNameDtos(List<Name> allNames);
 }
